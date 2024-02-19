@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="heading">Survey Form</h1>
+        <Form class="form">
+            <div class="form-element">
+                <label for="fname">Full name</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="dob-country-container">
+                <div class="form-element">
+                    <label for="d-o-b">Date of birth</label>
+                    <input type="text" id="d-o-b" name="d-o-b" size="50"> 
+                </div>
+                <div class="form-element">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" size="50">
+                </div>
+            </div>
+            <div class="form-element">
+                <label for="stack">Stack</label>
+                <select name="stack" id="stack">
+                    <option value=" ">------------</option>
+                    <option value="Mern">Mern stack</option>
+                    <option value="Mean">Mean stack</option>
+                    <option value="Python-django">Python django</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="Programming-language">Programming languages you know</label>
+                <input type="text" id="Programming-language" name="Programming-language">
+            </div>
+            <div class="form-element">
+                <label for="goat-tvseries">Goat of TV series</label>
+                <input type="text" id="goat-tvseries" name="goat-tvseries">
+            </div>
+            <div class="form-element">
+                <p>Favorite Code Editor</p>
+                <div class="code-editor-container">
+                    <div class="code-editor">
+                        <input type="radio" id="code-editor" name="code-editor" value="vs-code">
+                        <label for="code-editor">vs-code</label>
+                    </div>
+                    <div class="code-editor">
+                        <input type="radio" id="code-editor" name="code-editor" value="Vim">
+                        <label for="code-editor">Vim</label>
+                    </div>
+                    <div class="code-editor">
+                        <input type="radio" id="code-editor" name="code-editor" value="Sublime text">
+                        <label for="code-editor">Sublime text</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-element">
+                <input type="submit" id="submit" name="submit">
+            </div>
+        </Form>
+    </main>
+</body>
+</html>
